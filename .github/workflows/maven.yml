@@ -36,4 +36,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ezambomsantana/partida-06-ci:latest
+        tags: ezambomsantana/partida-06-ci:{$GITHUB_SHA}
